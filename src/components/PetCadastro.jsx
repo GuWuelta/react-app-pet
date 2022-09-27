@@ -1,16 +1,19 @@
 import React, { useState } from 'react'
+import { DivLista } from '../style/styled'
+import Cadastro from './Cadastro'
+import FormCadastros from './FormCadastros'
 
 export default function ListaTarefas() {
   
     const[cadastro, setCadastro] = useState([
       {
-      nome : "",
-      idade : "",
-      raca : "",
-      tamanho : "",
-      nomeDono : "",
-      telDono : "",
-      observacoes : ""
+      nome : "Lola",
+      idade : "12 anos",
+      raca : "Yorkshire",
+      tamanho : "60cm",
+      nomeDono : "Gustavo",
+      telDono : "11 94180-9501",
+      observacoes : "Tomar cuidado pois a pata direita da frente está machucada"
       }    
     ])
   
@@ -63,14 +66,14 @@ export default function ListaTarefas() {
     return (
       <DivLista>
         
-        <FormTarefas
-          funcaoAddTarefa={addTarefa}
-          novaTarefa={nTarefa}
+        <FormCadastros
+          funcaoAddCadastro={addCadastro}
+          novoCadastro={nCadastro}
           oQueFoiDigitado={captura}      
         />
   
-        {tarefa.map((tar,i)=>
-          <Tarefa
+        {cadastro.map((tar,i)=>
+          <Cadastro
           key={i}
           tituloProps={tar.titulo}
           setorProps={tar.setor}
