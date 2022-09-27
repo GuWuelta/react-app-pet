@@ -5,7 +5,7 @@ function App() {
   return(
     <div>
         <h1>Checkpoint 5 - Formulário Pets</h1>
-        <PetCadastro></PetCadastro>
+        <PetCadastro/>
     </div>
   )
 }
