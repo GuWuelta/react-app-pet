@@ -75,9 +75,13 @@ export default function ListaTarefas() {
         {cadastro.map((tar,i)=>
           <Cadastro
           key={i}
-          tituloProps={tar.titulo}
-          setorProps={tar.setor}
-          descricaoProps={tar.descricao}
+          nomePetProps={tar.nome}
+          idadeProps={tar.idade}
+          racaProps={tar.raca}
+          tamanhoProps={tar.tamanho}
+          nomeDonoProps={tar.nomeDono}
+          telDonoProps={tar.telDono}
+          observacoesProps={tar.observacoes}
           />
         )}    
       </DivLista>

@@ -14,19 +14,19 @@ export default function FormCadastros(props) {
             </div>
             <div>
                 <label>Raça</label>
-                <textarea name="raca" cols="30" rows="10" placeholder='Raça do pet...' value={props.novoCadastro.raca} onChange={props.oQueFoiDigitado}></textarea>
+                <input type="text" name='racaPet' placeholder='Raça do pet...' value={props.novoCadastro.raca} onChange={props.oQueFoiDigitado}/>
             </div>
             <div>
                 <label>Tamanho</label>
-                <textarea name="tamanho" cols="30" rows="10" placeholder='Tamanho do pet...' value={props.novoCadastro.tamanho} onChange={props.oQueFoiDigitado}></textarea>
+                <input type="text" name='tamanho' placeholder='Tamanho do pet...' value={props.novoCadastro.tamanho} onChange={props.oQueFoiDigitado}/>
             </div>
             <div>
                 <label>Nome do dono</label>
-                <textarea name="nomeDono" cols="30" rows="10" placeholder='Nome do dono...' value={props.novoCadastro.nomeDono} onChange={props.oQueFoiDigitado}></textarea>
+                <input type="text" name='nomeDono' placeholder='Nome do dono...' value={props.novoCadastro.nomeDono} onChange={props.oQueFoiDigitado}/>
             </div>
             <div>
                 <label>Telefone do dono</label>
-                <textarea name="telDono" cols="30" rows="10" placeholder='Telefone do dono...' value={props.novoCadastro.telDono} onChange={props.oQueFoiDigitado}></textarea>
+                <input type="text" name='telDono' placeholder='Telefone do dono...' value={props.novoCadastro.telDono} onChange={props.oQueFoiDigitado}/>
             </div>
             <div>
                 <label>Observações</label>

@@ -4,7 +4,7 @@ import { DivTarefa } from '../style/styled'
 export default function Cadastro(props) {
   return (
     <DivTarefa>
-        <h2>{props.nomePetProps}</h2>
+        <p>{props.nomePetProps}</p>
         <p>{props.idadeProps}</p>
         <p>{props.racaProps}</p>
         <p>{props.tamanhoProps}</p>
