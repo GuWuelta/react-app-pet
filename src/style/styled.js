@@ -12,9 +12,19 @@ export const DivLista = styled.div`
     color: #FFFF00;
     font-size: 18px;
     padding-bottom: px;
-    input{margin: 10px}
-    textarea{margin:10px}
-    label{margin: 15px}
+    input{margin-left: 20px; margin-top: 10px}
+    
+    .inputNome{margin-left:38px}
+    .inputIdade{margin-left:42px}
+    .inputRaca{margin-left: 45px}
+    .inputTamanho{margin-left: 13px}
+    .inputNomeDono{margin-left: 24px}
+    .inputTel{margin-left: 4px}
+
+    textarea{margin-left:35px; margin-top: 10px}
+    label{margin: 10px}
+    button{padding:5px; margin-left:10px; margin-top: 20px; border: solid 2px #696969;}
+    button:hover{background-color: #FFFF00; color:#A020F0; font-size:15px}
 `
 
 export const DivTarefa = styled.div`
