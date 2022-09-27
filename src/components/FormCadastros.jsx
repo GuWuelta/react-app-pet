@@ -30,7 +30,7 @@ export default function FormCadastros(props) {
             </div>
             <div>
                 <label>Observações</label>
-                <textarea name="observacoes" cols="30" rows="10" placeholder='Observações...' value={props.novoCadastro.observacoes} onChange={props.oQueFoiDigitado}></textarea>
+                <textarea name="observacoes" cols="50" rows="7" placeholder='Observações...' value={props.novoCadastro.observacoes} onChange={props.oQueFoiDigitado}></textarea>
             </div>
             <div>
                 <button type='submit'>Adicionar</button>

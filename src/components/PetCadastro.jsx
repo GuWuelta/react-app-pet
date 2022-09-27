@@ -7,13 +7,13 @@ export default function ListaTarefas() {
   
     const[cadastro, setCadastro] = useState([
       {
-      nome : "Lola",
-      idade : "12 anos",
-      raca : "Yorkshire",
-      tamanho : "60cm",
-      nomeDono : "Gustavo",
-      telDono : "11 94180-9501",
-      observacoes : "Tomar cuidado pois a pata direita da frente está machucada"
+      nome : "Nome do pet",
+      idade : "Idade do pet",
+      raca : "Raça do pet",
+      tamanho : "Tamanho do pet",
+      nomeDono : "Dono do pet",
+      telDono : "Telefone do dono",
+      observacoes : "Observações"
       }    
     ])
   
