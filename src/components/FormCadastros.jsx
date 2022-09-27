@@ -6,15 +6,15 @@ export default function FormCadastros(props) {
         <form method='post' onSubmit={props.funcaoAddCadastro}>
             <div>
                 <label>Nome do pet</label>
-                <input className='inputNome' type="text" name='nomePet' placeholder='Nome do pet...' value={props.novoCadastro.nomePet} onChange={props.oQueFoiDigitado} />
+                <input className='inputNome' type="text" name='nome' placeholder='Nome do pet...' value={props.novoCadastro.nome} onChange={props.oQueFoiDigitado} />
             </div>
             <div>
                 <label>Idade do pet</label>
-                <input className='inputIdade' type="text" name='idadePet' placeholder='Idade do pet...' value={props.novoCadastro.idade} onChange={props.oQueFoiDigitado}/>
+                <input className='inputIdade' type="text" name='idade' placeholder='Idade do pet...' value={props.novoCadastro.idade} onChange={props.oQueFoiDigitado}/>
             </div>
             <div>
                 <label>Raça do pet</label>
-                <input className='inputRaca' type="text" name='racaPet' placeholder='Raça do pet...' value={props.novoCadastro.raca} onChange={props.oQueFoiDigitado}/>
+                <input className='inputRaca' type="text" name='raca' placeholder='Raça do pet...' value={props.novoCadastro.raca} onChange={props.oQueFoiDigitado}/>
             </div>
             <div>
                 <label>Tamanho do pet</label>
@@ -33,7 +33,7 @@ export default function FormCadastros(props) {
                 <textarea name="observacoes" cols="50" rows="7" placeholder='Observações...' value={props.novoCadastro.observacoes} onChange={props.oQueFoiDigitado}></textarea>
             </div>
             <div>
-                <button type='submit'>Adicionar</button>
+                <button type='submit'>Cadastrar</button>
             </div>
         </form>
     </div>

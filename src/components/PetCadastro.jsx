@@ -17,19 +17,15 @@ export default function ListaTarefas() {
       }    
     ])
   
-    //ADD TAREFA
     const addCadastro = (e)=>{
-      e.preventDefault()
+        e.preventDefault()
   
-      //Adicionando uma nova tarefa
-      setNCadastro({nome:"",idade:"",raca:"",tamanho:"",nomeDono:"",telDono:"",observacoes:""})
-      setCadastro([...cadastro, nCadastro])
+        setNCadastro({nome:"",idade:"",raca:"",tamanho:"",nomeDono:"",telDono:"",observacoes:""})
+        setCadastro([...cadastro, nCadastro])
     }
     
-    // Criando state de nova tarefa
     const [nCadastro, setNCadastro] = useState({nome:"",idade:"",raca:"",tamanho:"",nomeDono:"",telDono:"",observacoes:""})
   
-    //FUNÇÃO DE CAPTURA DOS DADOS FORM
     const captura = (e)=>{
         const {value,name} = e.target
   
